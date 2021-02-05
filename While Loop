@@ -1,0 +1,28 @@
+# Python program to accept numbers until the sum of number is less than 100 using WHILE LOOP
+sum=0
+while sum<=100 :
+    k=int(input("Enter number:"))
+    sum+=k
+
+print("sum exceeded 100")
+
+
+# Python program to take 10 integers from keyboard using loop and print their average value on the screen
+print("Input integers. Input 0 to exit.")
+
+x = 0
+sum = 0.0
+number = 1
+
+while number != 0:
+   number = int(input(""))
+   sum = sum + number
+   x += 1
+
+if x == 0:
+   print("Input some numbers")
+else:
+   print("Average : ", sum / (x-1))
+   
+   
+   
