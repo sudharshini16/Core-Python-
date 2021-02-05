@@ -1,0 +1,47 @@
+# Which method/inbuilt function should I use to convert String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
+
+s = 'welcome to the beautiful world of python'
+
+cap = s.title()
+print(cap)
+
+
+------------------------------------------------------------------------------------------------------------
+# Remove empty strings from a list of strings
+      str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+while ("" in str_list):
+    str_list.remove("")
+str_list.remove(None)
+print(str_list)
+
+------------------------------------------------------------------------------------------------------------
+# Create a string and execute the following inbuilt functions on it.
+        - upper, lower, capitalize, split, join, isnumeric, isalpha, isdigit, count, isalnum.
+
+s = 'hello world 12'
+
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.split(' '))
+print(s.join(' '))
+print(s.isnumeric())
+print(s.isalnum())
+print(s.isalpha())
+print(s.isdigit())
+
+------------------------------------------------------------------------------------------------------------
+#  Find all occurrences of “USA” in given string ignoring the case
+str1 = "Welcome to USA. usa awesome, isn't it?"
+
+str1 = "Welcome to USA. usa awesome, isn't it?"
+
+x=str1.upper()
+print(x.count('USA'))
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+
