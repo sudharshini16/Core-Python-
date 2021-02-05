@@ -6,7 +6,7 @@ while sum<=100 :
 
 print("sum exceeded 100")
 
-
+------------------------------------------------------------------------------------------------------------
 # Python program to take 10 integers from keyboard using loop and print their average value on the screen
 print("Input integers. Input 0 to exit.")
 
