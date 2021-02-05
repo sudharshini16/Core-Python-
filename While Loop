@@ -1,4 +1,5 @@
 # Python program to accept numbers until the sum of number is less than 100 using WHILE LOOP
+
 sum=0
 while sum<=100 :
     k=int(input("Enter number:"))
@@ -23,6 +24,64 @@ if x == 0:
    print("Input some numbers")
 else:
    print("Average : ", sum / (x-1))
-   
+
+------------------------------------------------------------------------------------------------------------
+#Print multiplication table of given number
+
+n = int(input('Enter a digit:  '))
+for i in range(1, 11, 1):
+    product = n*i
+    print(product)
+------------------------------------------------------------------------------------------------------------
+#	Given a list iterate it and display numbers which are divisible by 5 and if you find number greater than 150 stop the loop iteration
+list1 = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
+
+list1 = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
+for item in list1:
+    if (item > 150):
+        break
+    if(item % 5 == 0):
+        print(item)
+
+------------------------------------------------------------------------------------------------------------
+#Given a number count the total number of digits in a number
+ For example, the number is 75869, so the output should be 5.
+
+num = 75869
+count = 0
+while num != 0:
+    num //= 10
+    count+= 1
+print("Total digits are: ", count)
+------------------------------------------------------------------------------------------------------------
+#Display -10 to -1 using for loop
+
+for i in range (-10, 0):
+    print (i)
+------------------------------------------------------------------------------------------------------------
+#Display a message “Done” after successful execution of for loop
+
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+
+------------------------------------------------------------------------------------------------------------
+#Print the following pattern using nested for loop
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1
+
+n = 5
+k = 5
+for i in range(0,n+1):
+    for j in range(k-i,0,-1):
+        print(j,end=' ')
+    print()
+------------------------------------------------------------------------------------------------------------
+
+
    
    
