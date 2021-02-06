@@ -1,5 +1,9 @@
 # Core-Python
 This is my Repository of Basics of Core Python codes. 
-
-
-Thank you
+ 
+List of Codes:
+- Loops
+- Lists
+- Object Oriented Programming
+- Strings
+- Tuples
