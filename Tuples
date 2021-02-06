@@ -1,0 +1,34 @@
+# Accessing a value from a tuple
+
+aTuple = ("Orange", [10, 20, 30], (5, 15, 25))
+
+print(aTuple[1][1])
+----------------------------------------------------------------------------------------------------------
+
+# Copy element 44 and 55 from the following tuple into a new tuple
+
+tuple1 = (11, 22, 33, 44, 55, 66)
+
+tuple2 = (tuple1[3],tuple1[4])
+print(tuple2)
+----------------------------------------------------------------------------------------------------------
+# Modify the first item (22) of a list inside a following tuple to 222
+
+tuple1 = (11, [22, 33], 44, 55)
+
+tuple1[1][0] = 222
+print(tuple1)
+----------------------------------------------------------------------------------------------------------
+# Swap the following two tuples
+
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+tuple1, tuple2 = tuple2, tuple1
+print(tuple1)
+print(tuple2)
+----------------------------------------------------------------------------------------------------------
+# Reverse the following tuple
+
+aTuple = (10, 20, 30, 40, 50)
+print(aTuple[::-1])
+
