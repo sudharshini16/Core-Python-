@@ -2,13 +2,15 @@
 This is my Repository of Basics of Core Python codes. 
  
 List of Codes:
-- Loops
 - Lists
-- Object Oriented Programming
 - Tuples
+- Dictionary
+- Loops
+- Object Oriented Programming
 - Date-Time
 - Lambda Functions
 - Files
-- Tkinter GUI
 - Exception Handling
 - Regular Expression
+- Tkinter GUI
+
