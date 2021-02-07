@@ -5,5 +5,4 @@ List of Codes:
 - Loops
 - Lists
 - Object Oriented Programming
-- Strings
 - Tuples
