@@ -1,0 +1,39 @@
+# Write a Python program to sort a list of tuples using Lambda.
+  
+subject_marks = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)
+subject_marks.sort(key = lambda x: x[1])
+  
+---------------------------------------------------------------------------------------------------------
+# Write a Python program to square and cube every number in a given list of integers using Lambda.
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+square = list(map(lambda x: x ** 2, nums))
+print(square)
+cube = list(map(lambda x: x ** 3, nums))
+print(cube)
+---------------------------------------------------------------------------------------------------------
+# Write a Python program to add two given lists using map and lambda
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9, 10]
+result = map(lambda x, y: x + y, list1, list2)
+print(list(result))
+
+---------------------------------------------------------------------------------------------------------
+
+# Write an python program to filter all the elements in the list that are divisible by 13.
+         my_list = [12, 65, 54, 39, 102,  339, 221, 50, 70]
+      
+my_list = [12, 65, 54, 39, 102,  339, 221, 50, 70]
+
+result = list(filter(lambda x: x % 13 == 0, my_list))
+print(result)
+---------------------------------------------------------------------------------------------------------
+# Write a Python program that multiply each number of given list with a given number using lambda function. Print the result.
+
+numbers = [1, 2, 3, 4, 5]
+given = int(input("Given Number: "))
+result=list(map(lambda number:number*given, numbers))
+print(result)
+---------------------------------------------------------------------------------------------------------
+
