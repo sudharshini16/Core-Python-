@@ -1,0 +1,27 @@
+# Read and append content on files in Python 
+
+fh = open("FileExample.txt", "a")
+
+fh.write("==========================\n")
+fh.write("Testing append operations on the file.\n")
+fh.write("Done with append operation.\n")
+
+fh.close()
+
+---------------------------------------------------------------------------------------------------
+# Take one file and read the contents on that file.
+fh=open("FileExample", 'w')
+print(fh)
+print(type(fh))
+
+---------------------------------------------------------------------------------------------------
+#Read file
+fh = open("FileExample.txt")
+print(fh)
+
+strContents = fh.read()
+fh.close()
+
+print(strContents)
+print(type(strContents))
+---------------------------------------------------------------------------------------------------
