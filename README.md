@@ -6,3 +6,6 @@ List of Codes:
 - Lists
 - Object Oriented Programming
 - Tuples
+- Date-Time
+- Lambda Functions
+
