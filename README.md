@@ -8,4 +8,6 @@ List of Codes:
 - Tuples
 - Date-Time
 - Lambda Functions
+- Files
+- Tkinter GUI
 
