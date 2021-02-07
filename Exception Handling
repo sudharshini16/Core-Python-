@@ -1,0 +1,38 @@
+
+To check the files is exist or not in drive otherwise throw exception.
+try:
+    f = open('myfile.txt')
+    s = f.readline()
+    i = int(s.strip())
+except OSError as err:
+    print("OS error: {0}".format(err))
+
+-----------------------------------------------------------------------------------------------------
+# Problem statement : Find number that divide by zero otherwise throw exception.
+x = 0
+y = 0
+z = x/y
+try:
+    z = x / y
+except ZeroDivisionError:
+    z = 0
+
+-----------------------------------------------------------------------------------------------------
+# Program to print the reciprocal of even numbers.
+
+num = int(input("Enter a number: "))
+
+try:
+    assert num % 2 == 0
+
+except ZeroDivisionError:
+    print(err)
+
+except:
+    print("Not an even number")
+
+else:
+    reciprocal = 1/num
+    print(reciprocal)
+
+-----------------------------------------------------------------------------------------------------
