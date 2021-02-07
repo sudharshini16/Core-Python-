@@ -10,4 +10,5 @@ List of Codes:
 - Lambda Functions
 - Files
 - Tkinter GUI
+- Exception Handling
 
